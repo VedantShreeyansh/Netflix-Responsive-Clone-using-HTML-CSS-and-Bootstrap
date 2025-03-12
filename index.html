@@ -124,12 +124,6 @@
         background-color: rgb(229, 9, 20);
         color: rgb(255, 255, 255);
     }
-/* 
-    #grad1{
-        height: 8px;
-        width: 100%;
-        background-color: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
-    } */
 
     .curve-container{
     background: linear-gradient(to bottom, #9198e5);
@@ -157,11 +151,11 @@
 .curve-container::before {
     content: "";
     position: absolute;
-    top: -10px; /* Moves the curve up */
+    top: -10px; 
     left: 0;
     width: 100%;
-    height: 10px; /* Controls curve depth */
-    border-radius: 50% / 40px; /* Adjust for a soft concave effect */
+    height: 10px; 
+    border-radius: 50% / 40px; 
     background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
 }
 
@@ -223,11 +217,11 @@
 }
 
 .carousel-control-prev {
-    left: 0px; /* Adjust as needed */
+    left: 0px; 
 }
 
 .carousel-control-next {
-    right: 0px; /* Adjust as needed */
+    right: 0px; 
 }
 
 
@@ -248,10 +242,6 @@
     width: 100%;
     position: relative;
    }
-
-/* .accordion-button {
- border-bottom: 1px solid black !important; 
-}
 
 
 .accordion-button::after {
@@ -325,7 +315,7 @@
             <img class="img-fluid ms-5" src="netflix_logo_transparent.png" alt="Netflix logo" style="width: 180px; height: auto; padding-left: 30px;">
           </a>
           
-          <!-- Hamburger Menu for Mobile -->
+         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -350,7 +340,7 @@
         </div>
       </nav>
 
-    <div class="masthead" style="background-image: url('background.png'); position: ">
+    <div class="masthead" style="background-image: url('background.png');">
         <div class="color-overlay d-flex justify-content-center align-items">
             <div class="container text-wrap" style="width: 35rem;">
                 <p class="h1" id="h1">Unlimited Movies, TV shows, and more</p>
@@ -364,9 +354,7 @@
         </div> 
     </div>
    
-    <!-- <hr class="curved-line"> -->
-    <!-- <div class="container" style="background: linear-gradient(to bottom, #9198e5) top-bottom; "></div> -->
-    
+
     <div class="curve-container container-fluid ps-1">
        <div class="container-fluid mt-5 ps-2 ">
         <div class="trendingNow pt-4">
@@ -378,21 +366,21 @@
                         <!-- First Slide -->
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-center flex-nowrap gap-5">
-                                <img src="Banners/image1.webp" alt="Movie1">
-                                <img src="Banners/image2.webp" alt="Movie2">
-                                <img src="Banners/image3.webp" alt="Movie3">
-                                <img src="Banners/image4.webp" alt="Movie4">
-                                <img src="Banners/image5.webp" alt="Movie5">
+                                <img src="./Banners/image1.webp" alt="Movie1">
+                                <img src="./Banners/image2.webp" alt="Movie2">
+                                <img src="./Banners/image3.webp" alt="Movie3">
+                                <img src="./Banners/image4.webp" alt="Movie4">
+                                <img src="./Banners/image5.webp" alt="Movie5">
                             </div>
                         </div>
                         <!-- Second Slide -->
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center flex-nowrap gap-5">
-                                <img src="Banners/image6.webp" alt="Movie6">
-                                <img src="Banners/image7.webp" alt="Movie7">
-                                <img src="Banners/image8.webp" alt="Movie8">
-                                <img src="Banners/image9.webp" alt="Movie9">
-                                <img src="Banners/image10.webp" alt="Movie10">
+                                <img src="./Banners/image6.webp" alt="Movie6">
+                                <img src="./Banners/image7.webp" alt="Movie7">
+                                <img src="./Banners/image8.webp" alt="Movie8">
+                                <img src="./Banners/image9.webp" alt="Movie9">
+                                <img src="./Banners/image10.webp" alt="Movie10">
                             </div>
                         </div>
                     </div>
@@ -610,7 +598,7 @@
     </div>
 
   
-    <div class="container-fluid select-picker ms-5" style="position: relative; padding-left: 50px; color: white;">
+    <div class="container-fluid select-picker ms-5" style="position: relative; padding-left: 50px; padding-right: 120px; color: white;">
         <div class="language-picker1 col-sm-1 ms-5" style="position: relative; margin-left: 50px;">
             <img class="pt-1 mt-2 ms-1"src="transparent_image (1).svg" alt="Language Icon" width="20" height="20" style="filter: invert(1); position: absolute;">
             <select class="form-select bg-transparent text-white ps-4 text-center justify-content-center align-items-center" aria-label="Language">
